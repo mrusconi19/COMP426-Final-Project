@@ -1,0 +1,52 @@
+input {
+    transition: all .2s;
+}
+
+form {
+    max-width: 400px;
+    margin: 2em auto;
+}
+
+form h1 {
+    font-weight: lighter;
+    font-size: 4rem;
+    margin-bottom: .3em;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    border: 0;
+    border-bottom: 1px solid #262626;
+    margin-bottom: 1.5em;
+    width: 98%;
+    padding: 3px;
+    line-height: 2rem;
+    font-size: .6em;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #262626;
+}
+
+input[type=submit] {
+    padding: 1em;
+    border: 1px solid black;
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+/* input[type=submit]:focus {
+    outline: auto;
+} */
+
+input:hover {
+    background-color: #f1f1f1;
+}
+
+label {
+    font-weight: normal;
+    font-size: 1.5em;
+}
