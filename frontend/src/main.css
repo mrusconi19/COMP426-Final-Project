@@ -1,0 +1,42 @@
+body {
+    /* margin: 20px 40px; */
+    background-color: white;
+    
+  }
+ 
+  img {
+    /* width: 350px; */
+    max-width: 23%;
+  }
+  
+  h1 { 
+    margin: 5px 0;
+    color:black;
+  }
+  
+  .job {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px 10px;
+    align-items: center;
+    background-color: rgba(56, 62, 63);
+  }
+  
+  .job:hover {
+    cursor: pointer;
+    color: darkgrey;
+  }
+  
+  .detail-logo {
+    height: 30px;
+    float: right;
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+      img {display: none;}
+  
+  }
